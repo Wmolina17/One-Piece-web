@@ -675,7 +675,7 @@
 }
 @media (max-width: 520px) {
   .img-none{
-    width: 60% !important;
+    width: 55% !important;
     left: 7% !important;
   }
   .cont{
@@ -714,12 +714,15 @@
   }
   .detalles p{
     margin-left: -40%;
-    width: 180% !important;
+    width: 170% !important;
   }
 }
 @media (max-width: 420px) {
   .logo{
     margin-left: -50px;
+  }
+  .img-none{
+    top: 1% !important;
   }
   h1{
     font-size: 2rem !important;
