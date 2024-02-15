@@ -33,12 +33,21 @@
     to{
       background: rgba(0, 0, 0, 0.5);
       backdrop-filter: blur(8px);
-      height: 130px;
+      height: 110px;
+    }
+  }
+
+  @keyframes top-logo {
+    to{
+      width: 200px;
     }
   }
 
   .logo{
     width: 250px;
+    animation: top-logo linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 200px;
   }
   nav ul{
     margin-top: 20px;
